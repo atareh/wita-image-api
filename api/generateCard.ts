@@ -23,4 +23,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   </svg>
   `;
 
-  const resvg = new Resvg(svg, {
+  const resvg = new Resvg(svg, { fitTo: { mode: 'width', value: 1080 } });
+  const png = resvg.render().asPng();
+
+  res.setHeader('Content-Type', 'image/png');
+  res.send(png);
+}
