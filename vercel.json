@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/generateCard.ts": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
