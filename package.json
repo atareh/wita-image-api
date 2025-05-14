@@ -1,0 +1,8 @@
+{
+  "name": "wita-image-api",
+  "version": "1.0.0",
+  "main": "api/generateCard.ts",
+  "dependencies": {
+    "skia-canvas": "0.9.30"
+  }
+}
