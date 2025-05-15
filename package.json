@@ -1,0 +1,8 @@
+{
+  "name": "wita-image-api",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.0.1"
+  }
+}
