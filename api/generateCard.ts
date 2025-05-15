@@ -8,11 +8,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   <svg width="1080" height="1350" xmlns="http://www.w3.org/2000/svg">
     <style>
       .bg { fill: #fefae0; }
-      .headline { fill: #001f2b; font-size: 60px; font-weight: bold; font-family: sans-serif; }
-      .subtext { fill: #333; font-size: 32px; font-family: sans-serif; }
+      .headline { fill: #001f2b; font-size: 60px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; }
+      .subtext { fill: #333; font-size: 32px; font-family: Arial, Helvetica, sans-serif; }
       .verdict-bar { fill: #db0001; }
-      .verdict { fill: #fff; font-size: 48px; font-weight: bold; font-family: sans-serif; }
-      .footer { fill: #444; font-size: 28px; font-family: sans-serif; }
+      .verdict { fill: #fff; font-size: 48px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; }
+      .footer { fill: #444; font-size: 28px; font-family: Arial, Helvetica, sans-serif; }
     </style>
     <rect class="bg" width="100%" height="100%" />
     <text class="headline" x="60" y="140">${headline.toUpperCase()}</text>
