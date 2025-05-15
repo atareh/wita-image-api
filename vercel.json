@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/*.js": {}
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}
