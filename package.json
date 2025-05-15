@@ -2,8 +2,13 @@
   "name": "wita-image-api",
   "version": "1.0.0",
   "type": "module",
-  "main": "api/generateCard.ts",
+  "scripts": {
+    "build": "echo no build step needed"
+  },
   "dependencies": {
     "@resvg/resvg-js": "^2.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
   }
 }
